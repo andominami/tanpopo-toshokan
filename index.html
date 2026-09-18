@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>医院図書室</title>
+<meta name="description" content="医院にある図書の一覧・検索と、貸出（貸出日・借りた人・返却状況）を管理するサイト">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">🌼📚</span>
+      <span class="brand-text">
+        <span class="brand-title">医院図書室</span>
+      </span>
+    </a>
+    <div class="search-wrap">
+      <label class="sr-only" for="search-input">キーワード検索</label>
+      <input id="search-input" type="search" autocomplete="off"
+             placeholder="タイトル・著者で検索">
+      <button id="search-clear" type="button" aria-label="検索をクリア">&times;</button>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+
+  <ul id="book-list" class="book-list"></ul>
+
+  <p id="empty-state" class="empty-state" hidden>
+    該当する本が見つかりませんでした。別のキーワードで検索してください。
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>院内向け 図書管理サイト &mdash; データは <code>data/books.json</code> を編集して更新できます。</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
