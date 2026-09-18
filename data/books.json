@@ -3,15 +3,29 @@
     "id": "1",
     "title": "サンプル図書1（このデータは差し替えてください）",
     "author": "山田太郎",
-    "loans": []
+    "loans": [
+      {
+        "borrower": "テスト",
+        "loanDate": "2026-09-18",
+        "returnDate": null
+      }
+    ]
   },
   {
     "id": "2",
     "title": "サンプル図書2（貸出中の例）",
     "author": "佐藤花子",
     "loans": [
-      { "borrower": "鈴木一郎", "loanDate": "2026-09-01", "returnDate": "2026-09-08" },
-      { "borrower": "田中次郎", "loanDate": "2026-09-15", "returnDate": null }
+      {
+        "borrower": "鈴木一郎",
+        "loanDate": "2026-09-01",
+        "returnDate": "2026-09-08"
+      },
+      {
+        "borrower": "田中次郎",
+        "loanDate": "2026-09-15",
+        "returnDate": null
+      }
     ]
   },
   {
@@ -19,7 +33,11 @@
     "title": "サンプル図書3（返却済みの例）",
     "author": "高橋健",
     "loans": [
-      { "borrower": "伊藤みどり", "loanDate": "2026-08-10", "returnDate": "2026-08-20" }
+      {
+        "borrower": "伊藤みどり",
+        "loanDate": "2026-08-10",
+        "returnDate": "2026-08-20"
+      }
     ]
   }
 ]
