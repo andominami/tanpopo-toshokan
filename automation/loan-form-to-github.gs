@@ -40,7 +40,7 @@ function onFormSubmit(e) {
   const values = e.namedValues || {};
   const pick = (key) => ((values[key] || [])[0] || "").trim();
 
-  const bookNo = pick("本の番号");
+  const bookNo = normalizeBookNo(pick("本の番号"));
   const borrower = pick("借りた人の名前");
 
   if (!bookNo || !borrower) {
@@ -118,6 +118,15 @@ function putFile(owner, repo, token, path, textContent, message, sha) {
   if (code !== 200 && code !== 201) {
     throw new ConflictOrError(code, res.getContentText());
   }
+}
+
+/** 全角数字や「No.」などの余分な文字が入っていても数字部分だけを取り出す */
+function normalizeBookNo(raw) {
+  const halfWidth = raw.replace(/[０-９]/g, (ch) =>
+    String.fromCharCode(ch.charCodeAt(0) - 0xfee0)
+  );
+  const match = halfWidth.match(/\d+/);
+  return match ? match[0] : halfWidth.trim();
 }
 
 function ghHeaders(token) {
