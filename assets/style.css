@@ -156,6 +156,48 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--color-accent-dark);
 }
 
+/* ---------- Form links ---------- */
+
+.form-links {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px 20px 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+  box-shadow: var(--shadow-card);
+}
+
+.form-link-loan {
+  background: var(--color-yellow);
+  color: #6b4a2b;
+}
+
+.form-link-loan:hover {
+  background: var(--color-yellow-dark);
+}
+
+.form-link-return {
+  background: var(--color-accent);
+  color: #2f4a26;
+}
+
+.form-link-return:hover {
+  background: var(--color-accent-dark);
+  color: #fff;
+}
+
 /* ---------- Layout ---------- */
 
 .layout {
