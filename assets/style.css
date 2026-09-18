@@ -184,6 +184,15 @@ button { font-family: inherit; cursor: pointer; }
   padding: 16px 18px;
 }
 
+.book-no {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  letter-spacing: 0.03em;
+}
+
 .book-title {
   margin: 0 0 4px;
   font-size: 1.05rem;
