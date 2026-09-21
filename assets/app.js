@@ -115,11 +115,15 @@
             "</tbody></table></details>"
           : "";
 
+        var authorHtml = book.author
+          ? '<p class="book-author">' + highlight(book.author, terms) + "</p>"
+          : "";
+
         return (
           '<li class="book-card">' +
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +
           '<h2 class="book-title">' + highlight(book.title, terms) + "</h2>" +
-          '<p class="book-author">' + highlight(book.author, terms) + "</p>" +
+          authorHtml +
           statusHtml +
           historyHtml +
           "</li>"
