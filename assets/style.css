@@ -78,7 +78,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .header-inner {
-  max-width: 900px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 14px 20px;
   display: flex;
@@ -159,7 +159,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Form links ---------- */
 
 .form-links {
-  max-width: 900px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 18px 20px 0;
   display: flex;
@@ -201,7 +201,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Layout ---------- */
 
 .layout {
-  max-width: 900px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 24px 20px 60px;
 }
@@ -218,9 +218,21 @@ button { font-family: inherit; cursor: pointer; }
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .book-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .book-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .book-card {
