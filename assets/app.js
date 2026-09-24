@@ -119,13 +119,20 @@
           ? '<p class="book-author">' + highlight(book.author, terms) + "</p>"
           : "";
 
+        var coverHtml = book.cover
+          ? '<img class="book-cover" src="' + escapeHtml(book.cover) + '" alt="" loading="lazy">'
+          : '<div class="book-cover book-cover-placeholder" aria-hidden="true">📖</div>';
+
         return (
           '<li class="book-card">' +
+          coverHtml +
+          '<div class="book-card-body">' +
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +
           '<h2 class="book-title">' + highlight(book.title, terms) + "</h2>" +
           authorHtml +
           statusHtml +
           historyHtml +
+          "</div>" +
           "</li>"
         );
       })
