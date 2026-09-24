@@ -541,7 +541,7 @@
       {
         "borrower": "安藤",
         "loanDate": "2026-09-24",
-        "returnDate": null
+        "returnDate": "2026-09-24"
       }
     ],
     "cover": "assets/covers/1069.jpg",
