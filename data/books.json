@@ -537,7 +537,13 @@
     "id": "1069",
     "title": "「TCH」見逃していませんか？",
     "author": "",
-    "loans": [],
+    "loans": [
+      {
+        "borrower": "安藤",
+        "loanDate": "2026-09-24",
+        "returnDate": null
+      }
+    ],
     "cover": "assets/covers/1069.jpg",
     "published": "2016年7月"
   },
