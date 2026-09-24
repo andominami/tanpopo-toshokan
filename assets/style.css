@@ -244,6 +244,14 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--color-bg);
 }
 
+img.book-cover {
+  cursor: zoom-in;
+}
+
+img.book-cover:hover {
+  filter: brightness(0.94);
+}
+
 .book-cover-placeholder {
   display: flex;
   align-items: center;
@@ -276,6 +284,12 @@ button { font-family: inherit; cursor: pointer; }
 .book-author {
   margin: 0 0 10px;
   font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.book-published {
+  margin: -4px 0 10px;
+  font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 
@@ -355,6 +369,67 @@ mark {
   border: 1px dashed var(--color-border);
   border-radius: var(--radius-lg);
 }
+
+/* ---------- Cover overlay ---------- */
+
+.cover-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(60, 40, 10, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.cover-overlay[hidden] { display: none; }
+
+.cover-panel {
+  position: relative;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  max-width: 420px;
+  width: 100%;
+  padding: 32px 24px 24px;
+  box-shadow: 0 20px 50px rgba(60, 40, 10, 0.3);
+  text-align: center;
+}
+
+.cover-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.cover-close:hover {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-dark);
+}
+
+.cover-image-large {
+  max-width: 100%;
+  max-height: 60vh;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.cover-info {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.cover-info .book-title { margin-top: 4px; }
 
 /* ---------- Footer ---------- */
 

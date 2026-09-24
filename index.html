@@ -49,6 +49,19 @@
   </p>
 </main>
 
+<div id="cover-overlay" class="cover-overlay" hidden>
+  <div class="cover-panel" role="dialog" aria-modal="true" aria-labelledby="cover-title">
+    <button id="cover-close" class="cover-close" type="button" aria-label="閉じる">&times;</button>
+    <img id="cover-image" class="cover-image-large" src="" alt="">
+    <div class="cover-info">
+      <span id="cover-no" class="book-no"></span>
+      <h2 id="cover-title" class="book-title"></h2>
+      <p id="cover-published" class="book-published" hidden></p>
+      <p id="cover-author" class="book-author" hidden></p>
+    </div>
+  </div>
+</div>
+
 <footer class="site-footer">
   <p>院内向け 図書管理サイト &mdash; データは <code>data/books.json</code> を編集して更新できます。</p>
 </footer>

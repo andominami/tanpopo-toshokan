@@ -7,6 +7,14 @@
   var searchInput = document.getElementById("search-input");
   var searchClear = document.getElementById("search-clear");
 
+  var coverOverlay = document.getElementById("cover-overlay");
+  var coverClose = document.getElementById("cover-close");
+  var coverImage = document.getElementById("cover-image");
+  var coverNo = document.getElementById("cover-no");
+  var coverTitle = document.getElementById("cover-title");
+  var coverPublished = document.getElementById("cover-published");
+  var coverAuthor = document.getElementById("cover-author");
+
   var books = [];
 
   fetch("data/books.json")
@@ -32,6 +40,46 @@
     searchClear.classList.remove("visible");
     searchInput.focus();
     render();
+  });
+
+  bookListEl.addEventListener("click", function (e) {
+    var target = e.target.closest(".book-cover");
+    if (!target) return;
+    var id = target.getAttribute("data-book-id");
+    var book = books.find(function (b) { return String(b.id) === id; });
+    if (book) openCover(book);
+  });
+
+  function openCover(book) {
+    coverImage.src = book.cover || "";
+    coverImage.alt = book.title;
+    coverNo.textContent = "No." + book.id;
+    coverTitle.textContent = book.title;
+    if (book.published) {
+      coverPublished.textContent = "発行: " + book.published;
+      coverPublished.hidden = false;
+    } else {
+      coverPublished.hidden = true;
+    }
+    if (book.author) {
+      coverAuthor.textContent = book.author;
+      coverAuthor.hidden = false;
+    } else {
+      coverAuthor.hidden = true;
+    }
+    coverOverlay.hidden = false;
+  }
+
+  function closeCover() {
+    coverOverlay.hidden = true;
+  }
+
+  coverClose.addEventListener("click", closeCover);
+  coverOverlay.addEventListener("click", function (e) {
+    if (e.target === coverOverlay) closeCover();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !coverOverlay.hidden) closeCover();
   });
 
   function escapeHtml(str) {
@@ -119,8 +167,13 @@
           ? '<p class="book-author">' + highlight(book.author, terms) + "</p>"
           : "";
 
+        var publishedHtml = book.published
+          ? '<p class="book-published">発行: ' + escapeHtml(book.published) + "</p>"
+          : "";
+
         var coverHtml = book.cover
-          ? '<img class="book-cover" src="' + escapeHtml(book.cover) + '" alt="" loading="lazy">'
+          ? '<img class="book-cover" src="' + escapeHtml(book.cover) +
+            '" alt="" loading="lazy" data-book-id="' + escapeHtml(book.id) + '">'
           : '<div class="book-cover book-cover-placeholder" aria-hidden="true">📖</div>';
 
         return (
@@ -130,6 +183,7 @@
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +
           '<h2 class="book-title">' + highlight(book.title, terms) + "</h2>" +
           authorHtml +
+          publishedHtml +
           statusHtml +
           historyHtml +
           "</div>" +

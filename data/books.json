@@ -9,37 +9,43 @@
     "id": "2",
     "title": "小児歯科臨床　5月号",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "3",
     "title": "Health Dentistry",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "4",
     "title": "Health Dentistry Ⅱ",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "5",
     "title": "早期治療　成長発育のエビデンスと治療戦略",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "6",
     "title": "口腔機能療法　MFFの実際　下巻",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "7",
     "title": "子どもの不正咬合",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "1002",
@@ -247,147 +253,169 @@
     "title": "歯科麻酔学　第6版",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1031.jpg"
+    "cover": "assets/covers/1031.jpg",
+    "published": "2005年1月"
   },
   {
     "id": "1032",
     "title": "歯科衛生士にも知ってほしい噛み合わせの本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1032.jpg"
+    "cover": "assets/covers/1032.jpg",
+    "published": "2014年9月"
   },
   {
     "id": "1033",
     "title": "食育は歯科医療を変える",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1033.jpg"
+    "cover": "assets/covers/1033.jpg",
+    "published": "2011年5月"
   },
   {
     "id": "1034",
     "title": "八か国語対訳　歯科医療会話集",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2007年3月"
   },
   {
     "id": "1035",
     "title": "実務版歯科アシスタントMYBOOK",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2009年10月"
   },
   {
     "id": "1036",
     "title": "歯科診療補助",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1036.jpg"
+    "cover": "assets/covers/1036.jpg",
+    "published": "2006年6月"
   },
   {
     "id": "1037",
     "title": "キャリアアップのためのアシスタントワーク",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1037.jpg"
+    "cover": "assets/covers/1037.jpg",
+    "published": "2003年7月"
   },
   {
     "id": "1038",
     "title": "歯科医院アシスタントハンドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1038.jpg"
+    "cover": "assets/covers/1038.jpg",
+    "published": "1996年8月"
   },
   {
     "id": "1039",
     "title": "2015年医歯薬出版　歯学図書目録",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2015年1月"
   },
   {
     "id": "1040",
     "title": "病理学　第2版",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1040.jpg"
+    "cover": "assets/covers/1040.jpg",
+    "published": "1986年"
   },
   {
     "id": "1041",
     "title": "必ず習得しておきたい歯科医院のための救命救急処置",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1041.jpg"
+    "cover": "assets/covers/1041.jpg",
+    "published": "2013年12月"
   },
   {
     "id": "1042",
     "title": "カスタムメイドタイプ新マウスガードのつくり方",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1042.jpg"
+    "cover": "assets/covers/1042.jpg",
+    "published": "2015年2月"
   },
   {
     "id": "1043",
     "title": "患者が求める「医療安全」「院内感染」対策",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1043.jpg"
+    "cover": "assets/covers/1043.jpg",
+    "published": "2015年2月"
   },
   {
     "id": "1044",
     "title": "子どもを泣かせない17の裏技",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1044.jpg"
+    "cover": "assets/covers/1044.jpg",
+    "published": "2015年3月"
   },
   {
     "id": "1045",
     "title": "チェアーサイドの有病者歯科治療ガイドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1045.jpg"
+    "cover": "assets/covers/1045.jpg",
+    "published": "2015年3月"
   },
   {
     "id": "1046",
     "title": "DHが語るインプラントが面白いほどわかる本",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2015年3月"
   },
   {
     "id": "1047",
     "title": "よみがえるレーザー歯科",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2015年5月"
   },
   {
     "id": "1048",
     "title": "はじめましょう有病者の口腔ケア—歯科衛生士の為のチェックポイント—",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2015年5月"
   },
   {
     "id": "1049",
     "title": "サイコ・デンティストリー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1049.jpg"
+    "cover": "assets/covers/1049.jpg",
+    "published": "2015年6月"
   },
   {
     "id": "1050",
     "title": "コンポジットレジン修復のサイエンス＆テクニック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1050.jpg"
+    "cover": "assets/covers/1050.jpg",
+    "published": "2015年8月"
   },
   {
     "id": "1051",
     "title": "今、保険の義歯はどう作るか？",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2015年8月"
   },
   {
     "id": "1052",
     "title": "歯科衛生士のための病気と薬パーフェクトガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1052.jpg"
+    "cover": "assets/covers/1052.jpg",
+    "published": "2015年9月"
   },
   {
     "id": "1053",
@@ -401,21 +429,24 @@
     "title": "みんなが知りたいホワイトニングQ&A",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1054.jpg"
+    "cover": "assets/covers/1054.jpg",
+    "published": "2016年1月"
   },
   {
     "id": "1055",
     "title": "歯科衛生士のX線読影力！臨床で120%活用するために",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1055.jpg"
+    "cover": "assets/covers/1055.jpg",
+    "published": "2016年1月"
   },
   {
     "id": "1056",
     "title": "予防歯科のすぐれモノ17+a",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1056.jpg"
+    "cover": "assets/covers/1056.jpg",
+    "published": "2006年6月"
   },
   {
     "id": "1057",
@@ -462,7 +493,8 @@
     "id": "1063",
     "title": "撮れる！活かせる！口腔内規格写真",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2016年4月"
   },
   {
     "id": "1064",
@@ -476,7 +508,8 @@
     "title": "SAFE(Sharing All Failed Experiences) Troubleshooting Guide Voleme1機械・構造的合併症編（他院からのインプラントトラブル患者レスキュー）",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1065.jpg"
+    "cover": "assets/covers/1065.jpg",
+    "published": "2016年5月"
   },
   {
     "id": "1066",
@@ -489,341 +522,391 @@
     "title": "自由診療化への鍵　トータルヘルスプログラムによるストラテジー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1067.jpg"
+    "cover": "assets/covers/1067.jpg",
+    "published": "2016年1月"
   },
   {
     "id": "1068",
     "title": "オーラルプロバイオティクスセラピー　いますぐ実践できる微生物療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1068.jpg"
+    "cover": "assets/covers/1068.jpg",
+    "published": "2016年6月"
   },
   {
     "id": "1069",
     "title": "「TCH」見逃していませんか？",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1069.jpg"
+    "cover": "assets/covers/1069.jpg",
+    "published": "2016年7月"
   },
   {
     "id": "1070",
     "title": "THE SOFT LINING—軟質リラインの本質—",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2016年8月"
   },
   {
     "id": "1071",
     "title": "ノンメタルクラスプデンチャー　長く使える設計の原則からメインテナンスまで",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1071.jpg"
+    "cover": "assets/covers/1071.jpg",
+    "published": "2016年8月"
   },
   {
     "id": "1072",
     "title": "開業医だから発見できる口腔ガン　そのサインの見つけ方と対応法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1072.jpg"
+    "cover": "assets/covers/1072.jpg",
+    "published": "2016年9月"
   },
   {
     "id": "1073",
     "title": "Contemporary Endodontics 外科的根管治療の必要性",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1073.jpg"
+    "cover": "assets/covers/1073.jpg",
+    "published": "2016年10月"
   },
   {
     "id": "1074",
     "title": "COLOR ATLAS 落ちない接着—その理論と臨床的ストラテジー（松風歯科クラブ）",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1074.jpg"
+    "cover": "assets/covers/1074.jpg",
+    "published": "2017年3月"
   },
   {
     "id": "1075",
     "title": "THE BITERAISING 咬合挙上をうまくなりたい",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1075.jpg"
+    "cover": "assets/covers/1075.jpg",
+    "published": "2017年4月"
   },
   {
     "id": "1076",
     "title": "DENTAL magagine　2017 夏",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1076.jpg"
+    "cover": "assets/covers/1076.jpg",
+    "published": "2017年6月"
   },
   {
     "id": "1077",
     "title": "MAXILLA-ORIENTED　INPLANTLOGY",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1077.jpg"
+    "cover": "assets/covers/1077.jpg",
+    "published": "2017年6月"
   },
   {
     "id": "1078",
     "title": "多剤常用薬時代の歯科診療室における局所麻酔管理のすすめ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1078.jpg"
+    "cover": "assets/covers/1078.jpg",
+    "published": "2017年6月"
   },
   {
     "id": "1079",
     "title": "絵でわかる「か強診」歯科医院の機能アップ—医療・介護同時改定に向けた必須体験",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1079.jpg"
+    "cover": "assets/covers/1079.jpg",
+    "published": "2017年6月"
   },
   {
     "id": "1080",
     "title": "母子に優しい歯科医院",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2017年6月"
   },
   {
     "id": "1081",
     "title": "歯科領域の院内感染予防対策",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1081.jpg"
+    "cover": "assets/covers/1081.jpg",
+    "published": "2017年7月"
   },
   {
     "id": "1082",
     "title": "臨床の悩み・ギモンに答える",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2017年8月"
   },
   {
     "id": "1083",
     "title": "歯科医院で患者さんにしっかり説明できる本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1083.jpg"
+    "cover": "assets/covers/1083.jpg",
+    "published": "2017年8月"
   },
   {
     "id": "1084",
     "title": "インプラント治療の理論と実践",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1084.jpg"
+    "cover": "assets/covers/1084.jpg",
+    "published": "2017年11月"
   },
   {
     "id": "1085",
     "title": "口腔インプラント治療指針",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1085.jpg"
+    "cover": "assets/covers/1085.jpg",
+    "published": "2017年12月"
   },
   {
     "id": "1086",
     "title": "ママになった歯科医師・歯科衛生士・管理栄養士が伝えたい！食育と虫歯予防の本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1086.jpg"
+    "cover": "assets/covers/1086.jpg",
+    "published": "2018年1月"
   },
   {
     "id": "1087",
     "title": "口腔インプラント治療指針　2016",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1087.jpg"
+    "cover": "assets/covers/1087.jpg",
+    "published": "2018年2月"
   },
   {
     "id": "1088",
     "title": "第101回〜第106回症例検討会「早期治療が大」",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年2月"
   },
   {
     "id": "1089",
     "title": "113〜118回症例検討会「早期治療が大切」",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年2月"
   },
   {
     "id": "1090",
     "title": "第124〜第129回症例検討会「拡大床装置は歯・歯列にどのように作用する？」",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年2月"
   },
   {
     "id": "1091",
     "title": "歯内療法のレベルアップ＆ヒント",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年2月"
   },
   {
     "id": "1092",
     "title": "CR修復　CR修復に悩んでいる人に読んでほしい",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年2月"
   },
   {
     "id": "1093",
     "title": "ルーティンで行う歯科医療リスクマネジメント",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1093.jpg"
+    "cover": "assets/covers/1093.jpg",
+    "published": "2018年2月"
   },
   {
     "id": "1094",
     "title": "歯科医が押さえておきたい生活習慣病Q&A78",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1094.jpg"
+    "cover": "assets/covers/1094.jpg",
+    "published": "2018年4月"
   },
   {
     "id": "1095",
     "title": "これから儲かる　歯科医院",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1095.jpg"
+    "cover": "assets/covers/1095.jpg",
+    "published": "2018年4月"
   },
   {
     "id": "1096",
     "title": "PROFESSIONAL　HYGIENIST　WORK　UP-",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1096.jpg"
+    "cover": "assets/covers/1096.jpg",
+    "published": "2018年4月"
   },
   {
     "id": "1097",
     "title": "歯科審美",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1097.jpg"
+    "cover": "assets/covers/1097.jpg",
+    "published": "2018年4月"
   },
   {
     "id": "1098",
     "title": "健康寿命延伸に寄与する老年歯科医療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1098.jpg"
+    "cover": "assets/covers/1098.jpg",
+    "published": "2018年5月"
   },
   {
     "id": "1099",
     "title": "基本から学ぶ歯科用コーンビームCT",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1099.jpg"
+    "cover": "assets/covers/1099.jpg",
+    "published": "2018年5月"
   },
   {
     "id": "1100",
     "title": "歯科医院での英会話",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1100.jpg"
+    "cover": "assets/covers/1100.jpg",
+    "published": "2018年5月"
   },
   {
     "id": "1101",
     "title": "歯科用CAD/CAMハンドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1101.jpg"
+    "cover": "assets/covers/1101.jpg",
+    "published": "2018年5月"
   },
   {
     "id": "1102",
     "title": "Decision　Making　of the Compromised Teeth",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1102.jpg"
+    "cover": "assets/covers/1102.jpg",
+    "published": "2018年5月"
   },
   {
     "id": "1104",
     "title": "MTAを用いたエンドの臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1104.jpg"
+    "cover": "assets/covers/1104.jpg",
+    "published": "2018年6月"
   },
   {
     "id": "1105",
     "title": "インパクトの高いインプラント　100論文＆80症例",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1105.jpg"
+    "cover": "assets/covers/1105.jpg",
+    "published": "2018年6月"
   },
   {
     "id": "1106",
     "title": "咬合再構成を極める",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1106.jpg"
+    "cover": "assets/covers/1106.jpg",
+    "published": "2018年6月"
   },
   {
     "id": "1107",
     "title": "顎関節症　セルフケア指導ハンドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1107.jpg"
+    "cover": "assets/covers/1107.jpg",
+    "published": "2018年6月"
   },
   {
     "id": "1108",
     "title": "歯科用CAD/CAMハンドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1108.jpg"
+    "cover": "assets/covers/1108.jpg",
+    "published": "2018年6月"
   },
   {
     "id": "1109",
     "title": "日常臨床のレベルアップ＆ヒント72",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1109.jpg"
+    "cover": "assets/covers/1109.jpg",
+    "published": "2018年8月"
   },
   {
     "id": "1110",
     "title": "子どもたちの歯と歯列の成長を守るメインテナン",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2018年8月"
   },
   {
     "id": "1111",
     "title": "根面被覆術を治療オプションに加えよう！",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1111.jpg"
+    "cover": "assets/covers/1111.jpg",
+    "published": "2018年8月"
   },
   {
     "id": "1112",
     "title": "インプラントオーバーデンチャーのアタッチメントベストチョイス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1112.jpg"
+    "cover": "assets/covers/1112.jpg",
+    "published": "2018年8月"
   },
   {
     "id": "1116",
     "title": "これでカンペキ！歯科衛生士の歯周治療の本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1116.jpg"
+    "cover": "assets/covers/1116.jpg",
+    "published": "2018年10月"
   },
   {
     "id": "1117",
     "title": "歯科医院のための感染対策",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1117.jpg"
+    "cover": "assets/covers/1117.jpg",
+    "published": "2018年10月"
   },
   {
     "id": "1118",
     "title": "歯科における薬の使い方」",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1118.jpg"
+    "cover": "assets/covers/1118.jpg",
+    "published": "2018年10月"
   },
   {
     "id": "1119",
     "title": "臨床家のための口腔疾患診断トレーニングブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1119.jpg"
+    "cover": "assets/covers/1119.jpg",
+    "published": "2018年10月"
   },
   {
     "id": "1120",
     "title": "はいしゃさんの仕事カイゼン術",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1120.jpg"
+    "cover": "assets/covers/1120.jpg",
+    "published": "2018年10月"
   },
   {
     "id": "1121",
@@ -851,570 +934,653 @@
     "title": "口腔機能低下症　入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1124.jpg"
+    "cover": "assets/covers/1124.jpg",
+    "published": "2018年12月"
   },
   {
     "id": "1125",
     "title": "フッ化物をめぐる誤解を解くための12章",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1125.jpg"
+    "cover": "assets/covers/1125.jpg",
+    "published": "2018年12月"
   },
   {
     "id": "1126",
     "title": "こだわりペリオサブノート",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1126.jpg"
+    "cover": "assets/covers/1126.jpg",
+    "published": "2018年12月"
   },
   {
     "id": "1127",
     "title": "口腔外科のレベルアップ＆ヒント",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1127.jpg"
+    "cover": "assets/covers/1127.jpg",
+    "published": "2018年12月"
   },
   {
     "id": "1128",
     "title": "完全攻略　スーパーボンド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1128.jpg"
+    "cover": "assets/covers/1128.jpg",
+    "published": "2018年12月"
   },
   {
     "id": "1129",
     "title": "金属アレルギーを学ぶ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1129.jpg"
+    "cover": "assets/covers/1129.jpg",
+    "published": "2019年2月"
   },
   {
     "id": "1130",
     "title": "IMPLANT　JOURNAL",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1130.jpg"
+    "cover": "assets/covers/1130.jpg",
+    "published": "2019年2月"
   },
   {
     "id": "1131",
     "title": "歯科の個別指導・監査・医道審議会の行政処分への対応法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1131.jpg"
+    "cover": "assets/covers/1131.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1132",
     "title": "少ないバーでできる生活歯の支台歯形成法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1132.jpg"
+    "cover": "assets/covers/1132.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1133",
     "title": "骨補填材料＆メンブレインの歴史的変遷と最新トレンド",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年3月"
   },
   {
     "id": "1134",
     "title": "臨床が楽しくなる咬合治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1134.jpg"
+    "cover": "assets/covers/1134.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1135",
     "title": "かかりつけ歯科医からはじめる口腔がん検診",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1135.jpg"
+    "cover": "assets/covers/1135.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1136",
     "title": "色と形から見る口腔粘膜病変",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1136.jpg"
+    "cover": "assets/covers/1136.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1137",
     "title": "IMPLANT　JOURNAL",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1137.jpg"
+    "cover": "assets/covers/1137.jpg",
+    "published": "2019年3月"
   },
   {
     "id": "1138",
     "title": "矯正臨床　日常臨床のための全顎矯正入門",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年4月"
   },
   {
     "id": "1139",
     "title": "下野先生に聞いてみた②",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1139.jpg"
+    "cover": "assets/covers/1139.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1140",
     "title": "インプラント周囲炎とレーザー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1140.jpg"
+    "cover": "assets/covers/1140.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1141",
     "title": "歯科矯正用アンカースクリュー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1141.jpg"
+    "cover": "assets/covers/1141.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1142",
     "title": "MTA　その基礎と臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1142.jpg"
+    "cover": "assets/covers/1142.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1143",
     "title": "インプラントオーバーデンチャーの臨床とエビラン",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1143.jpg"
+    "cover": "assets/covers/1143.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1144",
     "title": "根面う蝕の臨床戦略",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1144.jpg"
+    "cover": "assets/covers/1144.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1145",
     "title": "初めての顕微鏡",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1145.jpg"
+    "cover": "assets/covers/1145.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1146",
     "title": "聞くに聞けない歯周病治療",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年4月"
   },
   {
     "id": "1147",
     "title": "咀嚼効果",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2019年5月"
   },
   {
     "id": "1148",
     "title": "歯科医院に知ってほしい肝疾患のこと",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1148.jpg"
+    "cover": "assets/covers/1148.jpg",
+    "published": "2019年5月"
   },
   {
     "id": "1150",
     "title": "インプラント補綴の合併症",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1150.jpg"
+    "cover": "assets/covers/1150.jpg",
+    "published": "2019年5月"
   },
   {
     "id": "1152",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1152.jpg"
+    "cover": "assets/covers/1152.jpg",
+    "published": "2019年7月"
   },
   {
     "id": "1153",
     "title": "トラブル事例に学ぶ歯科訪問診療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1153.jpg"
+    "cover": "assets/covers/1153.jpg",
+    "published": "2019年7月"
   },
   {
     "id": "1154",
     "title": "21世紀版　インプラントのための重要12キーワー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1154.jpg"
+    "cover": "assets/covers/1154.jpg",
+    "published": "2019年8月"
   },
   {
     "id": "1155",
     "title": "TADの活かし方",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1155.jpg"
+    "cover": "assets/covers/1155.jpg",
+    "published": "2019年8月"
   },
   {
     "id": "1156",
     "title": "ある日、突然やってくる困った患者さん　あなたならどう診る",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1156.jpg"
+    "cover": "assets/covers/1156.jpg",
+    "published": "2019年8月"
   },
   {
     "id": "1157",
     "title": "歯科医のための救急処置マニュアル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1157.jpg"
+    "cover": "assets/covers/1157.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1158",
     "title": "マストオブ・エンド　ドンティックサージェーリー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1158.jpg"
+    "cover": "assets/covers/1158.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1159",
     "title": "ゴシック描記法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1159.jpg"
+    "cover": "assets/covers/1159.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1160",
     "title": "CRでここまでできる　ワンランク上の充填ガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1160.jpg"
+    "cover": "assets/covers/1160.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1161",
     "title": "歯周病とインプラント周囲病変の患者説明ブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1161.jpg"
+    "cover": "assets/covers/1161.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1162",
     "title": "矯正歯科治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1162.jpg"
+    "cover": "assets/covers/1162.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1163",
     "title": "総義歯吸着の7つのステップ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1163.jpg"
+    "cover": "assets/covers/1163.jpg",
+    "published": "2019年9月"
   },
   {
     "id": "1164",
     "title": "BTAテクニックの臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1164.jpg"
+    "cover": "assets/covers/1164.jpg",
+    "published": "2019年10月"
   },
   {
     "id": "1165",
     "title": "齲蝕予防マニュアル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1165.jpg"
+    "cover": "assets/covers/1165.jpg",
+    "published": "2019年10月"
   },
   {
     "id": "1166",
     "title": "デンタルインタビュー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1166.jpg"
+    "cover": "assets/covers/1166.jpg",
+    "published": "2019年10月"
   },
   {
     "id": "1167",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1167.jpg"
+    "cover": "assets/covers/1167.jpg",
+    "published": "2019年10月"
   },
   {
     "id": "1168",
     "title": "初めての総義歯",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1168.jpg"
+    "cover": "assets/covers/1168.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1169",
     "title": "新・口腔外科　始めましょう",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1169.jpg"
+    "cover": "assets/covers/1169.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1170",
     "title": "食生活と身体の退化",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1170.jpg"
+    "cover": "assets/covers/1170.jpg",
+    "published": "2019年5月"
   },
   {
     "id": "1171",
     "title": "X線写真クイズ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1171.jpg"
+    "cover": "assets/covers/1171.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1172",
     "title": "臨床で遭遇する口腔粘膜疾患に強くなる本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1172.jpg"
+    "cover": "assets/covers/1172.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1173",
     "title": "歯肉縁下う蝕の治療手順",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1173.jpg"
+    "cover": "assets/covers/1173.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1174",
     "title": "骨補填材料＆メンブレインの歴史的変遷と最新トレンド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1174.jpg"
+    "cover": "assets/covers/1174.jpg",
+    "published": "2019年12月"
   },
   {
     "id": "1175",
     "title": "人生100年時代の予防・メンテナンス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1175.jpg"
+    "cover": "assets/covers/1175.jpg",
+    "published": "2020年1月"
   },
   {
     "id": "1176",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1176.jpg"
+    "cover": "assets/covers/1176.jpg",
+    "published": "2020年1月"
   },
   {
     "id": "1177",
     "title": "待合室マーケティング",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年2月"
   },
   {
     "id": "1178",
     "title": "保育園・幼稚園での歯みがきレッスン",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1178.jpg"
+    "cover": "assets/covers/1178.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1179",
     "title": "インプラント治療の説明書と同意書の作り方",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1179.jpg"
+    "cover": "assets/covers/1179.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1180",
     "title": "臨床医のためのインプラント矯正入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1180.jpg"
+    "cover": "assets/covers/1180.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1181",
     "title": "歯周治療を成功に導く世界標準のコミュニケーション技法PMI",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1181.jpg"
+    "cover": "assets/covers/1181.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1182",
     "title": "インプラント治療計画のためのCT活用術",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1182.jpg"
+    "cover": "assets/covers/1182.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1183",
     "title": "臨床のためのオーラルアプライアンスガイドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1183.jpg"
+    "cover": "assets/covers/1183.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1184",
     "title": "待合室マーケティング",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1184.jpg"
+    "cover": "assets/covers/1184.jpg",
+    "published": "2020年4月"
   },
   {
     "id": "1185",
     "title": "クリニカル　デジタル　デンティストリー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1185.jpg"
+    "cover": "assets/covers/1185.jpg",
+    "published": "2020年5月"
   },
   {
     "id": "1186",
     "title": "ナイトガード",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1186.jpg"
+    "cover": "assets/covers/1186.jpg",
+    "published": "2020年7月"
   },
   {
     "id": "1187",
     "title": "骨増生テクニック＆骨補填材料　国内トレンド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1187.jpg"
+    "cover": "assets/covers/1187.jpg",
+    "published": "2020年7月"
   },
   {
     "id": "1188",
     "title": "アイライナー矯正歯科治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1188.jpg"
+    "cover": "assets/covers/1188.jpg",
+    "published": "2020年7月"
   },
   {
     "id": "1189",
     "title": "GPのエンド、専門医のエンド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1189.jpg"
+    "cover": "assets/covers/1189.jpg",
+    "published": "2020年7月"
   },
   {
     "id": "1190",
     "title": "FGF－2と歯周組織再生療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1190.jpg"
+    "cover": "assets/covers/1190.jpg",
+    "published": "2020年8月"
   },
   {
     "id": "1191",
     "title": "インプラント　メインメンテナンス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1191.jpg"
+    "cover": "assets/covers/1191.jpg",
+    "published": "2020年8月"
   },
   {
     "id": "1192",
     "title": "インプラント　オーバーデンチャー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1192.jpg"
+    "cover": "assets/covers/1192.jpg",
+    "published": "2020年8月"
   },
   {
     "id": "1193",
     "title": "その皮膚疾患歯科治療で治るかも",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年8月"
   },
   {
     "id": "1194",
     "title": "デンタルオフィス入門",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年9月"
   },
   {
     "id": "1195",
     "title": "エビデンスと解剖に基づいた臨床歯科麻酔学",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1195.jpg"
+    "cover": "assets/covers/1195.jpg",
+    "published": "2020年9月"
   },
   {
     "id": "1196",
     "title": "患者さんに喜ばれる歯ブラシコーディネート術",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年9月"
   },
   {
     "id": "1197",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1197.jpg"
+    "cover": "assets/covers/1197.jpg",
+    "published": "2020年9月"
   },
   {
     "id": "1198",
     "title": "見えない矯正　インビザライン",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年9月"
   },
   {
     "id": "1199",
     "title": "低侵撃な歯周の実践",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1199.jpg"
+    "cover": "assets/covers/1199.jpg",
+    "published": "2020年10月"
   },
   {
     "id": "1200",
     "title": "咬合の5大因子・10の要点",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2020年10月"
   },
   {
     "id": "1201",
     "title": "世界基準のインプラントメンテナンス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1201.jpg"
+    "cover": "assets/covers/1201.jpg",
+    "published": "2020年10月"
   },
   {
     "id": "1202",
     "title": "体のゆがみ　セルフコンディショニング",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1202.jpg"
+    "cover": "assets/covers/1202.jpg",
+    "published": "2020年12月"
   },
   {
     "id": "1203",
     "title": "鼻呼吸　歯医者さんの知りたいことが丸わかり",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1203.jpg"
+    "cover": "assets/covers/1203.jpg",
+    "published": "2020年12月"
   },
   {
     "id": "1204",
     "title": "床矯正治療を成功させる床装置と設計",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1204.jpg"
+    "cover": "assets/covers/1204.jpg",
+    "published": "2020年12月"
   },
   {
     "id": "1205",
     "title": "診療室から始まる高齢者歯科",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1205.jpg"
+    "cover": "assets/covers/1205.jpg",
+    "published": "2020年12月"
   },
   {
     "id": "1206",
     "title": "この疾患　医科で診る？歯科で診る？",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1206.jpg"
+    "cover": "assets/covers/1206.jpg",
+    "published": "2010年4月"
   },
   {
     "id": "1207",
     "title": "臨床のBASIC　OF　BASIC　52",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1207.jpg"
+    "cover": "assets/covers/1207.jpg",
+    "published": "2017年9月"
   },
   {
     "id": "1208",
     "title": "歯科矯正学",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "1985年10月"
   },
   {
     "id": "1209",
@@ -1427,193 +1593,221 @@
     "title": "パワーポイント　バージョン2007",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1210.jpg"
+    "cover": "assets/covers/1210.jpg",
+    "published": "2009年8月"
   },
   {
     "id": "1211",
     "title": "ドクターひろ　の超明解ペリオドントロジー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1211.jpg"
+    "cover": "assets/covers/1211.jpg",
+    "published": "2005年11月"
   },
   {
     "id": "1212",
     "title": "保存修復学",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1212.jpg"
+    "cover": "assets/covers/1212.jpg",
+    "published": "2007年4月"
   },
   {
     "id": "1213",
     "title": "歯科診療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1213.jpg"
+    "cover": "assets/covers/1213.jpg",
+    "published": "2016年4月"
   },
   {
     "id": "1214",
     "title": "クラウンブリッジ補綴学",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1214.jpg"
+    "cover": "assets/covers/1214.jpg",
+    "published": "2008年1月"
   },
   {
     "id": "1215",
     "title": "口腔の解剖",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1215.jpg"
+    "cover": "assets/covers/1215.jpg",
+    "published": "2002年3月"
   },
   {
     "id": "1216",
     "title": "保存修復学　21",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1216.jpg"
+    "cover": "assets/covers/1216.jpg",
+    "published": "2008年3月"
   },
   {
     "id": "1217",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1217.jpg"
+    "cover": "assets/covers/1217.jpg",
+    "published": "2021年1月"
   },
   {
     "id": "1218",
     "title": "子どものみかたbook",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年3月"
   },
   {
     "id": "1219",
     "title": "インプラント基本のき",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1219.jpg"
+    "cover": "assets/covers/1219.jpg",
+    "published": "2021年2月"
   },
   {
     "id": "1220",
     "title": "保険診療でできるメタルフリー修復治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1220.jpg"
+    "cover": "assets/covers/1220.jpg",
+    "published": "2021年3月"
   },
   {
     "id": "1221",
     "title": "minimal tooth movement",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1221.jpg"
+    "cover": "assets/covers/1221.jpg",
+    "published": "2021年3月"
   },
   {
     "id": "1222",
     "title": "口腔顎顔面痛",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1222.jpg"
+    "cover": "assets/covers/1222.jpg",
+    "published": "2021年3月"
   },
   {
     "id": "1223",
     "title": "歯科臨床の知恵と技",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1223.jpg"
+    "cover": "assets/covers/1223.jpg",
+    "published": "2021年5月"
   },
   {
     "id": "1224",
     "title": "口腔写真撮影入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1224.jpg"
+    "cover": "assets/covers/1224.jpg",
+    "published": "2021年5月"
   },
   {
     "id": "1225",
     "title": "safe　trouble　shoting　guide",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1225.jpg"
+    "cover": "assets/covers/1225.jpg",
+    "published": "2021年5月"
   },
   {
     "id": "1226",
     "title": "コピーデンチャーズ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1226.jpg"
+    "cover": "assets/covers/1226.jpg",
+    "published": "2021年6月"
   },
   {
     "id": "1227",
     "title": "全身疾患医療面接ガイド",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年6月"
   },
   {
     "id": "1228",
     "title": "口腔ケア",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年6月"
   },
   {
     "id": "1230",
     "title": "摂食嚥下リハビリテーション",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1230.jpg"
+    "cover": "assets/covers/1230.jpg",
+    "published": "2015年4月"
   },
   {
     "id": "1231",
     "title": "口腔機能向上マニュアル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1231.jpg"
+    "cover": "assets/covers/1231.jpg",
+    "published": "2013年3月"
   },
   {
     "id": "1232",
     "title": "オーラルケア・マネジメント　実践マニュアル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1232.jpg"
+    "cover": "assets/covers/1232.jpg",
+    "published": "2010年10月"
   },
   {
     "id": "1233",
     "title": "嚥下障害のことがよくわかる本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1233.jpg"
+    "cover": "assets/covers/1233.jpg",
+    "published": "2014年9月"
   },
   {
     "id": "1234",
     "title": "乳歯の歯内療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1234.jpg"
+    "cover": "assets/covers/1234.jpg",
+    "published": "2021年7月"
   },
   {
     "id": "1235",
     "title": "一から学ぶジルコニア臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1235.jpg"
+    "cover": "assets/covers/1235.jpg",
+    "published": "2021年8月"
   },
   {
     "id": "1236",
     "title": "DH　style",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1236.jpg"
+    "cover": "assets/covers/1236.jpg",
+    "published": "2021年9月"
   },
   {
     "id": "1237",
     "title": "safe　trouble　shoting　guide",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1237.jpg"
+    "cover": "assets/covers/1237.jpg",
+    "published": "2021年9月"
   },
   {
     "id": "1238",
     "title": "赤ちゃんと幼児のご飯",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1238.jpg"
+    "cover": "assets/covers/1238.jpg",
+    "published": "2021年9月"
   },
   {
     "id": "1239",
@@ -1626,746 +1820,855 @@
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1241.jpg"
+    "cover": "assets/covers/1241.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1242",
     "title": "make　the　dental　mamelon",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年10月"
   },
   {
     "id": "1243",
     "title": "歯科診断　スキルアッガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1243.jpg"
+    "cover": "assets/covers/1243.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1244",
     "title": "口腔スキャナー　はじめて講座",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1244.jpg"
+    "cover": "assets/covers/1244.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1245",
     "title": "歯科医師＆衛生士のためのマウスピース矯正入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1245.jpg"
+    "cover": "assets/covers/1245.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1246",
     "title": "咀嚼機能アップbook",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1246.jpg"
+    "cover": "assets/covers/1246.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1247",
     "title": "よくわかる超音波スケーラーの基本",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年10月"
   },
   {
     "id": "1248",
     "title": "高齢者歯科医療の臨床眼",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1248.jpg"
+    "cover": "assets/covers/1248.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1249",
     "title": "子ども達の歯列と口腔機能",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1249.jpg"
+    "cover": "assets/covers/1249.jpg",
+    "published": "2021年10月"
   },
   {
     "id": "1250",
     "title": "艇侵　歯周組織再生療法",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年11月"
   },
   {
     "id": "1251",
     "title": "ユニバーサルシェードを使いこなす",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1251.jpg"
+    "cover": "assets/covers/1251.jpg",
+    "published": "2021年11月"
   },
   {
     "id": "1252",
     "title": "SRP　art&science",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1252.jpg"
+    "cover": "assets/covers/1252.jpg",
+    "published": "2021年11月"
   },
   {
     "id": "1253",
     "title": "実践　歯肉療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1253.jpg"
+    "cover": "assets/covers/1253.jpg",
+    "published": "2021年12月"
   },
   {
     "id": "1254",
     "title": "自家歯牙　移植・再植",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1254.jpg"
+    "cover": "assets/covers/1254.jpg",
+    "published": "2021年12月"
   },
   {
     "id": "1255",
     "title": "インプラントのヒヤリハット　あるある",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1255.jpg"
+    "cover": "assets/covers/1255.jpg",
+    "published": "2021年12月"
   },
   {
     "id": "1256",
     "title": "肉芽の科学と臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1256.jpg"
+    "cover": "assets/covers/1256.jpg",
+    "published": "2021年12月"
   },
   {
     "id": "1257",
     "title": "はじめての小児口腔機能・形態・成長",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2021年2月"
   },
   {
     "id": "1258",
     "title": "口腔粘膜疾患識別ガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1258.jpg"
+    "cover": "assets/covers/1258.jpg",
+    "published": "2021年2月"
   },
   {
     "id": "1259",
     "title": "レーザー治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1259.jpg"
+    "cover": "assets/covers/1259.jpg",
+    "published": "2006年1月"
   },
   {
     "id": "1260",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1260.jpg"
+    "cover": "assets/covers/1260.jpg",
+    "published": "2021年12月"
   },
   {
     "id": "1261",
     "title": "患者説明　超入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1261.jpg"
+    "cover": "assets/covers/1261.jpg",
+    "published": "2022年1月"
   },
   {
     "id": "1262",
     "title": "あなたの根管治療はここが間違ってる",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1262.jpg"
+    "cover": "assets/covers/1262.jpg",
+    "published": "2022年1月"
   },
   {
     "id": "1263",
     "title": "歯周ポケット　鑑別ガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1263.jpg"
+    "cover": "assets/covers/1263.jpg",
+    "published": "2022年1月"
   },
   {
     "id": "1264",
     "title": "GPによる限局矯正LOT",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1264.jpg"
+    "cover": "assets/covers/1264.jpg",
+    "published": "2022年1月"
   },
   {
     "id": "1265",
     "title": "このインプラントなに",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1265.jpg"
+    "cover": "assets/covers/1265.jpg",
+    "published": "2019年4月"
   },
   {
     "id": "1266",
     "title": "続　このインプラントなに",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1266.jpg"
+    "cover": "assets/covers/1266.jpg",
+    "published": "2017年6月"
   },
   {
     "id": "1267",
     "title": "歯磨剤　選び方ガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1267.jpg"
+    "cover": "assets/covers/1267.jpg",
+    "published": "2022年3月"
   },
   {
     "id": "1268",
     "title": "これで解決　矯正トラブル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1268.jpg"
+    "cover": "assets/covers/1268.jpg",
+    "published": "2022年3月"
   },
   {
     "id": "1269",
     "title": "インプラント　小技帳50",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1269.jpg"
+    "cover": "assets/covers/1269.jpg",
+    "published": "2022年3月"
   },
   {
     "id": "1270",
     "title": "エビデンスの調べ方・読み解き方",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1270.jpg"
+    "cover": "assets/covers/1270.jpg",
+    "published": "2022年3月"
   },
   {
     "id": "1271",
     "title": "3dsによる口腔フローラ改善療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1271.jpg"
+    "cover": "assets/covers/1271.jpg",
+    "published": "2022年2月"
   },
   {
     "id": "1272",
     "title": "天然歯を活かしたインプラント治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1272.jpg"
+    "cover": "assets/covers/1272.jpg",
+    "published": "2022年3月"
   },
   {
     "id": "1273",
     "title": "全身疾患ハンドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1273.jpg"
+    "cover": "assets/covers/1273.jpg",
+    "published": "2022年4月"
   },
   {
     "id": "1274",
     "title": "オーラルフレイルの診かた",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1274.jpg"
+    "cover": "assets/covers/1274.jpg",
+    "published": "2022年4月"
   },
   {
     "id": "1275",
     "title": "インプラントジャーナル",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2022年3月"
   },
   {
     "id": "1276",
     "title": "再生療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1276.jpg"
+    "cover": "assets/covers/1276.jpg",
+    "published": "2022年5月"
   },
   {
     "id": "1277",
     "title": "ペリオ・インプラント再生療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1277.jpg"
+    "cover": "assets/covers/1277.jpg",
+    "published": "2022年5月"
   },
   {
     "id": "1278",
     "title": "抜歯手技",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1278.jpg"
+    "cover": "assets/covers/1278.jpg",
+    "published": "2022年5月"
   },
   {
     "id": "1279",
     "title": "１からはじめる口腔機能低下症",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1279.jpg"
+    "cover": "assets/covers/1279.jpg",
+    "published": "2022年5月"
   },
   {
     "id": "1280",
     "title": "顎変形症治療の基礎知識",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1280.jpg"
+    "cover": "assets/covers/1280.jpg",
+    "published": "2022年5月"
   },
   {
     "id": "1283",
     "title": "無歯顎補綴の治療戦略",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1283.jpg"
+    "cover": "assets/covers/1283.jpg",
+    "published": "2022年7月"
   },
   {
     "id": "1284",
     "title": "科学的根拠に基づいたビジュアル下顎埋伏智歯",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1284.jpg"
+    "cover": "assets/covers/1284.jpg",
+    "published": "2022年7月"
   },
   {
     "id": "1285",
     "title": "mta アップデート2021-2022",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1285.jpg"
+    "cover": "assets/covers/1285.jpg",
+    "published": "2022年7月"
   },
   {
     "id": "1286",
     "title": "インプラントジャーナル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1286.jpg"
+    "cover": "assets/covers/1286.jpg",
+    "published": "2022年7月"
   },
   {
     "id": "1287",
     "title": "歯科手術アシスタントマスターbook",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2022年7月"
   },
   {
     "id": "1288",
     "title": "睡眠時無呼吸治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1288.jpg"
+    "cover": "assets/covers/1288.jpg",
+    "published": "2022年8月"
   },
   {
     "id": "1289",
     "title": "歯科訪問治療　算定ガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1289.jpg"
+    "cover": "assets/covers/1289.jpg",
+    "published": "2022年8月"
   },
   {
     "id": "1290",
     "title": "エビデンスアカデミア",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1290.jpg"
+    "cover": "assets/covers/1290.jpg",
+    "published": "2022年8月"
   },
   {
     "id": "1292",
     "title": "伝統がもたらす革新",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2023年1月"
   },
   {
     "id": "1293",
     "title": "根管充填",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1293.jpg"
+    "cover": "assets/covers/1293.jpg",
+    "published": "2023年2月"
   },
   {
     "id": "1294",
     "title": "歯科医院で患者さんにしっかり説明できる本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1294.jpg"
+    "cover": "assets/covers/1294.jpg",
+    "published": "2023年2月"
   },
   {
     "id": "1295",
     "title": "臨床の玉手箱",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1295.jpg"
+    "cover": "assets/covers/1295.jpg",
+    "published": "2023年2月"
   },
   {
     "id": "1296",
     "title": "インプラントの撤去",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2023年3月"
   },
   {
     "id": "1297",
     "title": "アップデート・ザ・ペリオ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1297.jpg"
+    "cover": "assets/covers/1297.jpg",
+    "published": "2023年3月"
   },
   {
     "id": "1298",
     "title": "有病者にやっていい治療・だめな治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1298.jpg"
+    "cover": "assets/covers/1298.jpg",
+    "published": "2023年3月"
   },
   {
     "id": "1299",
     "title": "口腔病変アトラス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1299.jpg"
+    "cover": "assets/covers/1299.jpg",
+    "published": "2023年3月"
   },
   {
     "id": "1300",
     "title": "歯周再生療法を成功させるテクニックとストラジー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1300.jpg"
+    "cover": "assets/covers/1300.jpg",
+    "published": "2020年6月"
   },
   {
     "id": "1301",
     "title": "EBMはじめの一歩",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2023年7月"
   },
   {
     "id": "1302",
     "title": "ADHD/発達障害　入門",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1302.jpg"
+    "cover": "assets/covers/1302.jpg",
+    "published": "2023年8月"
   },
   {
     "id": "1303",
     "title": "Er：YAGレーザーパーフェクトガイド",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1303.jpg"
+    "cover": "assets/covers/1303.jpg",
+    "published": "2023年9月"
   },
   {
     "id": "1304",
     "title": "MTAのファーストステップ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1304.jpg"
+    "cover": "assets/covers/1304.jpg",
+    "published": "2023年10月"
   },
   {
     "id": "1305",
     "title": "デンタルデンディストリー　ホントのところどうなの？",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1305.jpg"
+    "cover": "assets/covers/1305.jpg",
+    "published": "2020年2月"
   },
   {
     "id": "1306",
     "title": "インプラント治療のアシスタントワーク　上巻",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2010年10月"
   },
   {
     "id": "1307",
     "title": "未来型歯科医院をつくろう",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2010年11月"
   },
   {
     "id": "1308",
     "title": "水と光（レーザー）奇跡の歯科臨床",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1308.jpg"
+    "cover": "assets/covers/1308.jpg",
+    "published": "2016年8月"
   },
   {
     "id": "1309",
     "title": "口腔外科学・歯科麻酔学",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1309.jpg"
+    "cover": "assets/covers/1309.jpg",
+    "published": "2006年2月"
   },
   {
     "id": "1310",
     "title": "MAXILLA-ORIENTED　IMPLANTOLOGY",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1310.jpg"
+    "cover": "assets/covers/1310.jpg",
+    "published": "2010年6月"
   },
   {
     "id": "1311",
     "title": "歯科衛生士のためのインプラントメインテナンス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1311.jpg"
+    "cover": "assets/covers/1311.jpg",
+    "published": "2010年5月"
   },
   {
     "id": "1312",
     "title": "知ってて得した！歯周治療に活かせるエビデンス",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1312.jpg"
+    "cover": "assets/covers/1312.jpg",
+    "published": "2009年5月"
   },
   {
     "id": "1313",
     "title": "マウスガードだけじゃない！成形器利用マニュアル",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1313.jpg"
+    "cover": "assets/covers/1313.jpg",
+    "published": "2006年8月"
   },
   {
     "id": "1314",
     "title": "インプラントジャーナル　2023",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1314.jpg"
+    "cover": "assets/covers/1314.jpg",
+    "published": "2023年12月"
   },
   {
     "id": "1315",
     "title": "フラップデザイン　ベーシック編",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1315.jpg"
+    "cover": "assets/covers/1315.jpg",
+    "published": "2023年12月"
   },
   {
     "id": "1316",
     "title": "歯肉移植",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1316.jpg"
+    "cover": "assets/covers/1316.jpg",
+    "published": "2024年2月"
   },
   {
     "id": "1317",
     "title": "一般臨床に活かすLOT",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1317.jpg"
+    "cover": "assets/covers/1317.jpg",
+    "published": "2024年1月"
   },
   {
     "id": "1318",
     "title": "インプラントジャーナル　2024",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2024年3月"
   },
   {
     "id": "1319",
     "title": "歯科小手術",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2024年3月"
   },
   {
     "id": "1320",
     "title": "インプラントジャーナル　2024　98号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1320.jpg"
+    "cover": "assets/covers/1320.jpg",
+    "published": "2024年6月"
   },
   {
     "id": "1321",
     "title": "ジルコニア補てつ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1321.jpg"
+    "cover": "assets/covers/1321.jpg",
+    "published": "2022年1月"
   },
   {
     "id": "1322",
     "title": "咬合面のつくりかた",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1322.jpg"
+    "cover": "assets/covers/1322.jpg",
+    "published": "2024年7月"
   },
   {
     "id": "1323",
     "title": "インプラント周囲炎　ゼロコンセプト",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1323.jpg"
+    "cover": "assets/covers/1323.jpg",
+    "published": "2024年7月"
   },
   {
     "id": "1324",
     "title": "歯周病と全身疾患",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1324.jpg"
+    "cover": "assets/covers/1324.jpg",
+    "published": "2024年7月"
   },
   {
     "id": "1325",
     "title": "歯周組織再生療法ポケットガイド",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2024年4月"
   },
   {
     "id": "1326",
     "title": "インプラントジャーナル　2024　99号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1326.jpg"
+    "cover": "assets/covers/1326.jpg",
+    "published": "2024年9月"
   },
   {
     "id": "1327",
     "title": "インプラントジャーナル　2023　95号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1327.jpg"
+    "cover": "assets/covers/1327.jpg",
+    "published": "2023年9月"
   },
   {
     "id": "1328",
     "title": "GOがアライナー矯正を行うとき外せないポイントをやさしく症例に沿って解説した本",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1328.jpg"
+    "cover": "assets/covers/1328.jpg",
+    "published": "2024年9月"
   },
   {
     "id": "1329",
     "title": "インプラントジャーナル　2024　100号",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2024年12月"
   },
   {
     "id": "1330",
     "title": "インプラント周囲組織マネジメント",
     "author": "",
-    "loans": []
+    "loans": [],
+    "published": "2025年2月"
   },
   {
     "id": "1331",
     "title": "インプラントジャーナル　2025　101号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1331.jpg"
+    "cover": "assets/covers/1331.jpg",
+    "published": "2025年3月"
   },
   {
     "id": "1332",
     "title": "若手歯科医のための臨床の技50　歯周治療",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1332.jpg"
+    "cover": "assets/covers/1332.jpg",
+    "published": "2007年7月"
   },
   {
     "id": "1333",
     "title": "若手歯科医のための臨床の技50　歯肉療法",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1333.jpg"
+    "cover": "assets/covers/1333.jpg",
+    "published": "2009年4月"
   },
   {
     "id": "1334",
     "title": "若手歯科医のための臨床の技50　総義歯",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1334.jpg"
+    "cover": "assets/covers/1334.jpg",
+    "published": "2007年11月"
   },
   {
     "id": "1335",
     "title": "若手歯科医のための臨床の技50　保存修復",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1335.jpg"
+    "cover": "assets/covers/1335.jpg",
+    "published": "2005年3月"
   },
   {
     "id": "1336",
     "title": "若手歯科医のための臨床の技50　パーシャルデンチャー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1336.jpg"
+    "cover": "assets/covers/1336.jpg",
+    "published": "2008年5月"
   },
   {
     "id": "1337",
     "title": "若手歯科医のための臨床の技50　クラウンブリッジ",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1337.jpg"
+    "cover": "assets/covers/1337.jpg",
+    "published": "2008年10月"
   },
   {
     "id": "1338",
     "title": "矯正が先か？インプラントが先か？",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1338.jpg"
+    "cover": "assets/covers/1338.jpg",
+    "published": "2023年9月"
   },
   {
     "id": "1339",
     "title": "審美インプラントの治療戦略",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1339.jpg"
+    "cover": "assets/covers/1339.jpg",
+    "published": "2023年9月"
   },
   {
     "id": "1340",
     "title": "その大顎位をどう決める？",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1340.jpg"
+    "cover": "assets/covers/1340.jpg",
+    "published": "2023年8月"
   },
   {
     "id": "1341",
     "title": "口腔インプラント学　学術用語集第3版",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1341.jpg"
+    "cover": "assets/covers/1341.jpg",
+    "published": "2014年6月"
   },
   {
     "id": "1342",
     "title": "予防歯科イノベーション",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1342.jpg"
+    "cover": "assets/covers/1342.jpg",
+    "published": "2024年1月"
   },
   {
     "id": "1343",
     "title": "モノシリック　セラミック　修復ガイドブック",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1343.jpg"
+    "cover": "assets/covers/1343.jpg",
+    "published": "2025年3月"
   },
   {
     "id": "1344",
     "title": "インプラントジャーナル　2025　102号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1344.jpg"
+    "cover": "assets/covers/1344.jpg",
+    "published": "2025年6月"
   },
   {
     "id": "1345",
     "title": "インプラント周囲疾患",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1345.jpg"
+    "cover": "assets/covers/1345.jpg",
+    "published": "2025年6月"
   },
   {
     "id": "1346",
     "title": "エンドに必要なアナトミー",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1346.jpg"
+    "cover": "assets/covers/1346.jpg",
+    "published": "2018年9月"
   },
   {
     "id": "1347",
     "title": "下野先生に聞いてみた1⃣",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1347.jpg"
+    "cover": "assets/covers/1347.jpg",
+    "published": "2017年12月"
   },
   {
     "id": "1348",
     "title": "インプラントジャーナル　2025　103号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1348.jpg"
+    "cover": "assets/covers/1348.jpg",
+    "published": "2025年9月"
   },
   {
     "id": "1349",
     "title": "インプラントジャーナル　2025　104号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1349.jpg"
+    "cover": "assets/covers/1349.jpg",
+    "published": "2025年12月"
   },
   {
     "id": "1350",
     "title": "歯科診療報酬改定その後",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1350.jpg"
+    "cover": "assets/covers/1350.jpg",
+    "published": "2025年12月"
   },
   {
     "id": "1351",
     "title": "デンタルエコーVOL.223",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1351.jpg"
+    "cover": "assets/covers/1351.jpg",
+    "published": "2026年1月"
   },
   {
     "id": "1352",
     "title": "インプラントジャーナル　2026　105号",
     "author": "",
     "loans": [],
-    "cover": "assets/covers/1352.jpg"
+    "cover": "assets/covers/1352.jpg",
+    "published": "2026年3月"
   }
 ]
