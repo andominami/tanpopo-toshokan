@@ -60,12 +60,17 @@ html, body {
 
 button { font-family: inherit; cursor: pointer; }
 
-/* ---------- Header ---------- */
+/* ---------- Sticky top (header + form links) ---------- */
 
-.site-header {
+.sticky-top {
   position: sticky;
   top: 0;
   z-index: 20;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
 }
@@ -159,9 +164,14 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Form links ---------- */
 
 .form-links {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.form-links-inner {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 18px 20px 0;
+  padding: 14px 20px;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
