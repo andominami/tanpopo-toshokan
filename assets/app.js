@@ -43,16 +43,22 @@
   });
 
   bookListEl.addEventListener("click", function (e) {
-    var target = e.target.closest(".book-cover");
-    if (!target) return;
-    var id = target.getAttribute("data-book-id");
+    if (e.target.closest(".book-history")) return; // 貸出履歴の開閉はそのまま
+    var card = e.target.closest(".book-card");
+    if (!card) return;
+    var id = card.getAttribute("data-book-id");
     var book = books.find(function (b) { return String(b.id) === id; });
     if (book) openCover(book);
   });
 
   function openCover(book) {
-    coverImage.src = book.cover || "";
-    coverImage.alt = book.title;
+    if (book.cover) {
+      coverImage.src = book.cover;
+      coverImage.alt = book.title;
+      coverImage.hidden = false;
+    } else {
+      coverImage.hidden = true;
+    }
     coverNo.textContent = "No." + book.id;
     coverTitle.textContent = book.title;
     if (book.published) {
@@ -172,12 +178,11 @@
           : "";
 
         var coverHtml = book.cover
-          ? '<img class="book-cover" src="' + escapeHtml(book.cover) +
-            '" alt="" loading="lazy" data-book-id="' + escapeHtml(book.id) + '">'
+          ? '<img class="book-cover" src="' + escapeHtml(book.cover) + '" alt="" loading="lazy">'
           : '<div class="book-cover book-cover-placeholder" aria-hidden="true">📖</div>';
 
         return (
-          '<li class="book-card">' +
+          '<li class="book-card" data-book-id="' + escapeHtml(book.id) + '">' +
           coverHtml +
           '<div class="book-card-body">' +
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +

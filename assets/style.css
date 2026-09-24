@@ -232,6 +232,11 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   gap: 14px;
   align-items: flex-start;
+  cursor: pointer;
+}
+
+.book-card:hover {
+  border-color: var(--color-yellow);
 }
 
 .book-cover {
@@ -244,13 +249,6 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--color-bg);
 }
 
-img.book-cover {
-  cursor: zoom-in;
-}
-
-img.book-cover:hover {
-  filter: brightness(0.94);
-}
 
 .book-cover-placeholder {
   display: flex;
