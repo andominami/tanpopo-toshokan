@@ -161,13 +161,7 @@
     "id": "1018",
     "title": "「歯科医院経営」のすべて",
     "author": "",
-    "loans": [
-      {
-        "borrower": "テスト",
-        "loanDate": "2026-09-30",
-        "returnDate": "2026-09-30"
-      }
-    ],
+    "loans": [],
     "cover": "assets/covers/1018.jpg"
   },
   {
@@ -543,13 +537,7 @@
     "id": "1069",
     "title": "「TCH」見逃していませんか？",
     "author": "",
-    "loans": [
-      {
-        "borrower": "安藤",
-        "loanDate": "2026-09-24",
-        "returnDate": "2026-09-24"
-      }
-    ],
+    "loans": [],
     "cover": "assets/covers/1069.jpg",
     "published": "2016年7月"
   },
