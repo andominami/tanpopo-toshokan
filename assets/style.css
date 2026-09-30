@@ -250,10 +250,56 @@ button { font-family: inherit; cursor: pointer; }
   padding: 24px 20px 60px;
 }
 
+.content-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
 .result-count {
-  margin: 0 0 14px;
+  margin: 0;
   color: var(--color-text-muted);
   font-size: 0.9rem;
+}
+
+.toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.toolbar-field select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.88rem;
+}
+
+.loan-only-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.loan-only-toggle input {
+  cursor: pointer;
 }
 
 /* ---------- Book list ---------- */
@@ -322,10 +368,22 @@ button { font-family: inherit; cursor: pointer; }
 .book-no {
   display: inline-block;
   margin-bottom: 4px;
+  margin-right: 8px;
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-text-muted);
   letter-spacing: 0.03em;
+}
+
+.book-category {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-accent-dark);
+  background: var(--color-accent-soft);
+  border-radius: 999px;
+  padding: 1px 9px;
 }
 
 .book-title {
@@ -365,6 +423,18 @@ button { font-family: inherit; cursor: pointer; }
 .book-status.on-loan {
   color: var(--color-red-dark);
   background: var(--color-red-soft);
+}
+
+.due-date {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.due-date.overdue {
+  color: var(--color-red-dark);
+  font-weight: 700;
 }
 
 .book-history {

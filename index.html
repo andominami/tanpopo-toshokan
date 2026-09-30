@@ -53,7 +53,29 @@
 </div>
 
 <main class="layout">
-  <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+  <div class="content-toolbar">
+    <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+    <div class="toolbar-controls">
+      <label class="toolbar-field">
+        カテゴリ
+        <select id="category-select">
+          <option value="">すべて</option>
+        </select>
+      </label>
+      <label class="toolbar-field">
+        並び替え
+        <select id="sort-select">
+          <option value="title">タイトル順</option>
+          <option value="no">No.順</option>
+          <option value="loan-first">貸出中を上に</option>
+        </select>
+      </label>
+      <label class="loan-only-toggle">
+        <input type="checkbox" id="loan-only-checkbox">
+        貸出中のみ表示
+      </label>
+    </div>
+  </div>
 
   <ul id="book-list" class="book-list"></ul>
 

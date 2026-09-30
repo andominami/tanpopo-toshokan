@@ -6,6 +6,9 @@
   var resultCountEl = document.getElementById("result-count");
   var searchInput = document.getElementById("search-input");
   var searchClear = document.getElementById("search-clear");
+  var categorySelect = document.getElementById("category-select");
+  var sortSelect = document.getElementById("sort-select");
+  var loanOnlyCheckbox = document.getElementById("loan-only-checkbox");
 
   var coverOverlay = document.getElementById("cover-overlay");
   var coverClose = document.getElementById("cover-close");
@@ -24,10 +27,21 @@
 
   var books = [];
 
+  var CATEGORY_ORDER = [
+    "単行本・その他",
+    "補綴臨床",
+    "日本歯科評論",
+    "歯科衛生士",
+    "the Quintessence",
+    "nico",
+    "DENTAL DIAMOND"
+  ];
+
   fetch("data/books.json")
     .then(function (res) { return res.json(); })
     .then(function (data) {
       books = data;
+      populateCategoryOptions();
       render();
     })
     .catch(function (err) {
@@ -48,6 +62,25 @@
     searchInput.focus();
     render();
   });
+
+  categorySelect.addEventListener("change", render);
+  sortSelect.addEventListener("change", render);
+  loanOnlyCheckbox.addEventListener("change", render);
+
+  function populateCategoryOptions() {
+    var present = {};
+    books.forEach(function (b) { present[b.category || "単行本・その他"] = true; });
+    var ordered = CATEGORY_ORDER.filter(function (c) { return present[c]; });
+    Object.keys(present).forEach(function (c) {
+      if (ordered.indexOf(c) === -1) ordered.push(c);
+    });
+    ordered.forEach(function (c) {
+      var opt = document.createElement("option");
+      opt.value = c;
+      opt.textContent = c;
+      categorySelect.appendChild(opt);
+    });
+  }
 
   bookListEl.addEventListener("click", function (e) {
     if (e.target.closest(".book-history")) return; // 貸出履歴の開閉はそのまま
@@ -141,17 +174,54 @@
     return d || "-";
   }
 
+  var LOAN_PERIOD_DAYS = 7;
+
+  function addDays(dateStr, days) {
+    var d = new Date(dateStr + "T00:00:00");
+    d.setDate(d.getDate() + days);
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + day;
+  }
+
+  function todayStr() {
+    var d = new Date();
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + day;
+  }
+
   function render() {
     var query = searchInput.value.trim();
     var terms = query.split(/\s+/).filter(Boolean);
+    var category = categorySelect.value;
+    var loanOnly = loanOnlyCheckbox.checked;
+    var sortMode = sortSelect.value;
 
     var filtered = books.filter(function (book) {
-      if (!terms.length) return true;
-      var haystack = (book.title + " " + book.author).toLowerCase();
-      return terms.every(function (t) { return haystack.indexOf(t.toLowerCase()) !== -1; });
+      if (terms.length) {
+        var haystack = (book.title + " " + book.author).toLowerCase();
+        if (!terms.every(function (t) { return haystack.indexOf(t.toLowerCase()) !== -1; })) return false;
+      }
+      if (category && (book.category || "単行本・その他") !== category) return false;
+      if (loanOnly && !currentLoan(book)) return false;
+      return true;
     });
 
-    filtered.sort(function (a, b) { return a.title.localeCompare(b.title, "ja"); });
+    if (sortMode === "no") {
+      filtered.sort(function (a, b) { return parseInt(a.id, 10) - parseInt(b.id, 10); });
+    } else if (sortMode === "loan-first") {
+      filtered.sort(function (a, b) {
+        var aLoan = currentLoan(a) ? 1 : 0;
+        var bLoan = currentLoan(b) ? 1 : 0;
+        if (aLoan !== bLoan) return bLoan - aLoan;
+        return a.title.localeCompare(b.title, "ja");
+      });
+    } else {
+      filtered.sort(function (a, b) { return a.title.localeCompare(b.title, "ja"); });
+    }
 
     var onLoanCount = books.filter(currentLoan).length;
     resultCountEl.textContent =
@@ -160,10 +230,19 @@
     bookListEl.innerHTML = filtered
       .map(function (book) {
         var loan = currentLoan(book);
-        var statusHtml = loan
-          ? '<span class="book-status on-loan">📕 貸出中 — ' +
-            escapeHtml(loan.borrower) + "（貸出日: " + escapeHtml(formatDate(loan.loanDate)) + "）</span>"
-          : '<span class="book-status available">📗 在庫あり</span>';
+        var statusHtml;
+        if (loan) {
+          var dueDate = addDays(loan.loanDate, LOAN_PERIOD_DAYS);
+          var overdue = dueDate < todayStr();
+          statusHtml =
+            '<span class="book-status on-loan">📕 貸出中 — ' +
+            escapeHtml(loan.borrower) + "（貸出日: " + escapeHtml(formatDate(loan.loanDate)) + "）</span>" +
+            '<span class="due-date' + (overdue ? " overdue" : "") + '">' +
+            (overdue ? "⚠️ 返却期限切れ（" : "返却期限: ") + escapeHtml(dueDate) + (overdue ? "）" : "") +
+            "</span>";
+        } else {
+          statusHtml = '<span class="book-status available">📗 在庫あり</span>';
+        }
 
         var rows = historyRows(book);
         var historyHtml = rows.length
@@ -197,11 +276,16 @@
           ? '<img class="book-cover" src="' + escapeHtml(book.cover) + '" alt="" loading="lazy">'
           : '<div class="book-cover book-cover-placeholder" aria-hidden="true">📖</div>';
 
+        var categoryHtml = book.category
+          ? '<span class="book-category">' + escapeHtml(book.category) + "</span>"
+          : "";
+
         return (
           '<li class="book-card" data-book-id="' + escapeHtml(book.id) + '">' +
           coverHtml +
           '<div class="book-card-body">' +
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +
+          categoryHtml +
           '<h2 class="book-title">' + highlight(book.title, terms) + "</h2>" +
           authorHtml +
           publishedHtml +
