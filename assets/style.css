@@ -483,6 +483,11 @@ mark {
 
 .cover-info .book-title { margin-top: 4px; }
 
+.cover-loan-link {
+  display: inline-flex;
+  margin-top: 6px;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
