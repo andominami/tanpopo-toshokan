@@ -41,6 +41,8 @@
 
 * { box-sizing: border-box; }
 
+[hidden] { display: none !important; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -484,7 +486,6 @@ mark {
 .cover-info .book-title { margin-top: 4px; }
 
 .cover-loan-link {
-  display: inline-flex;
   margin-top: 6px;
 }
 

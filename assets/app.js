@@ -15,9 +15,12 @@
   var coverPublished = document.getElementById("cover-published");
   var coverAuthor = document.getElementById("cover-author");
   var coverLoanLink = document.getElementById("cover-loan-link");
+  var coverReturnLink = document.getElementById("cover-return-link");
 
   var LOAN_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdJj40a9sNGseU0InMc5dWAcI2QWwFJl4m2juVu9RDnbazHvA/viewform";
   var LOAN_FORM_NO_ENTRY = "entry.95383657";
+  var RETURN_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeRwUKPJD6P2Zq0xQ11YYIkvZOPdC6PMvAG_9GPU78xO5GS3A/viewform";
+  var RETURN_FORM_NO_ENTRY = "entry.152102254";
 
   var books = [];
 
@@ -79,9 +82,12 @@
     }
     if (currentLoan(book)) {
       coverLoanLink.hidden = true;
+      coverReturnLink.href = RETURN_FORM_URL + "?usp=pp_url&" + RETURN_FORM_NO_ENTRY + "=" + encodeURIComponent(book.id);
+      coverReturnLink.hidden = false;
     } else {
       coverLoanLink.href = LOAN_FORM_URL + "?usp=pp_url&" + LOAN_FORM_NO_ENTRY + "=" + encodeURIComponent(book.id);
       coverLoanLink.hidden = false;
+      coverReturnLink.hidden = true;
     }
     coverOverlay.hidden = false;
   }
