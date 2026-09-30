@@ -161,7 +161,13 @@
     "id": "1018",
     "title": "「歯科医院経営」のすべて",
     "author": "",
-    "loans": [],
+    "loans": [
+      {
+        "borrower": "テスト",
+        "loanDate": "2026-09-30",
+        "returnDate": null
+      }
+    ],
     "cover": "assets/covers/1018.jpg"
   },
   {
