@@ -18,6 +18,9 @@
  *   GITHUB_TOKEN … リポジトリへの書き込み権限を持つGitHubのアクセストークン
  *   REPO_OWNER   … andominami
  *   REPO_NAME    … tanpopo-toshokan
+ *
+ * 表紙写真の圧縮のため、左側メニュー「サービス」の + から
+ * 「Drive API」（高度なGoogleサービス）を追加しておくこと。
  */
 
 // フォームの「カテゴリ」プルダウンと合わせること。
@@ -130,16 +133,14 @@ function fetchBooksJson(owner, repo, token) {
 
 /**
  * ファイルアップロード質問の回答(DriveのURL)から表紙写真をGitHubへ書き出す。
- * スマホ写真をそのまま送るとサイトが重くなるため、Driveが自動生成するサムネイル
- * （軽量なJPEG）があればそちらを使い、無い場合だけ元画像にフォールバックする。
- * アップロード直後はサムネイルがまだ生成されていないことがあるため、
- * 少し待ってから何回か取得を試みる。
+ * スマホ写真をそのまま送るとサイトが重くなるため、Drive APIの thumbnailLink
+ * （軽量なJPEG）を取得してそちらを使い、どうしても取得できない場合だけ
+ * 元画像にフォールバックする。
  */
 function uploadCoverPhoto(owner, repo, token, bookId, photoAnswer) {
   const fileId = extractDriveFileId(photoAnswer.split(",")[0].trim());
   if (!fileId) return null;
-  const file = DriveApp.getFileById(fileId);
-  const blob = getThumbnailWithRetry(file) || file.getBlob();
+  const blob = fetchCompressedThumbnail(fileId) || DriveApp.getFileById(fileId).getBlob();
   const ext = extFromMimeType(blob.getContentType());
   const path = `assets/covers/${bookId}.${ext}`;
   putFile(
@@ -153,6 +154,32 @@ function uploadCoverPhoto(owner, repo, token, bookId, photoAnswer) {
     Utilities.base64Encode(blob.getBytes())
   );
   return { path, fileId };
+}
+
+/**
+ * Drive API（高度なGoogleサービス）の thumbnailLink から軽量なサムネイル画像を取得する。
+ * アップロード直後はサムネイルがまだ生成されていないことがあるため、
+ * 少し待ってから何回か取得を試みる。取得できなければ null を返す。
+ */
+function fetchCompressedThumbnail(fileId) {
+  for (let i = 0; i < 5; i++) {
+    try {
+      const meta = Drive.Files.get(fileId, { fields: "thumbnailLink" });
+      if (meta.thumbnailLink) {
+        // 既定のサムネイルは小さすぎる(=s220程度)ので、サイズ指定を大きめに差し替える
+        const url = meta.thumbnailLink.replace(/=s\d+$/, "=s500");
+        const res = UrlFetchApp.fetch(url, {
+          headers: { Authorization: `Bearer ${ScriptApp.getOAuthToken()}` },
+          muteHttpExceptions: true,
+        });
+        if (res.getResponseCode() === 200) return res.getBlob();
+      }
+    } catch (err) {
+      console.error(`サムネイル取得に失敗(fileId=${fileId}): ${err}`);
+    }
+    Utilities.sleep(2000);
+  }
+  return null;
 }
 
 /**
@@ -196,16 +223,6 @@ function ghHeaders(token) {
 function extractDriveFileId(url) {
   const m = url.match(/[-\w]{25,}/);
   return m ? m[0] : null;
-}
-
-/** アップロード直後はサムネイル未生成のことがあるため、間隔を空けて数回試す */
-function getThumbnailWithRetry(file) {
-  for (let i = 0; i < 5; i++) {
-    const thumb = file.getThumbnail();
-    if (thumb) return thumb;
-    Utilities.sleep(2000);
-  }
-  return null;
 }
 
 /** 全角数字や「No.」などの余分な文字が入っていても数字部分だけを取り出す */
