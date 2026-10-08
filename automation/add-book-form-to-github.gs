@@ -77,6 +77,7 @@ function onFormSubmit(e) {
       author: author || "",
       category,
       loans: [],
+      addedAt: new Date().toISOString(),
     };
     if (published) newBook.published = published;
 

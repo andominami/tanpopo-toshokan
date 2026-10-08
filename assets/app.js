@@ -210,7 +210,14 @@
       return true;
     });
 
-    if (sortMode === "no") {
+    if (sortMode === "new") {
+      filtered.sort(function (a, b) {
+        var aAdded = a.addedAt || "";
+        var bAdded = b.addedAt || "";
+        if (aAdded !== bAdded) return aAdded < bAdded ? 1 : -1;
+        return a.title.localeCompare(b.title, "ja");
+      });
+    } else if (sortMode === "no") {
       filtered.sort(function (a, b) { return parseInt(a.id, 10) - parseInt(b.id, 10); });
     } else if (sortMode === "loan-first") {
       filtered.sort(function (a, b) {
