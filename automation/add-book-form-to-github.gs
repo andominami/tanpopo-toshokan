@@ -128,12 +128,16 @@ function fetchBooksJson(owner, repo, token) {
   return { sha: meta.sha, books: JSON.parse(content) };
 }
 
-/** ファイルアップロード質問の回答(DriveのURL)から表紙写真をGitHubへ書き出す */
+/**
+ * ファイルアップロード質問の回答(DriveのURL)から表紙写真をGitHubへ書き出す。
+ * スマホ写真をそのまま送るとサイトが重くなるため、Driveが自動生成するサムネイル
+ * （軽量なJPEG）があればそちらを使い、無い場合だけ元画像にフォールバックする。
+ */
 function uploadCoverPhoto(owner, repo, token, bookId, photoAnswer) {
   const fileId = extractDriveFileId(photoAnswer.split(",")[0].trim());
   if (!fileId) return null;
   const file = DriveApp.getFileById(fileId);
-  const blob = file.getBlob();
+  const blob = file.getThumbnail() || file.getBlob();
   const ext = extFromMimeType(blob.getContentType());
   const path = `assets/covers/${bookId}.${ext}`;
   putFile(
