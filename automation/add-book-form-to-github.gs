@@ -132,12 +132,14 @@ function fetchBooksJson(owner, repo, token) {
  * ファイルアップロード質問の回答(DriveのURL)から表紙写真をGitHubへ書き出す。
  * スマホ写真をそのまま送るとサイトが重くなるため、Driveが自動生成するサムネイル
  * （軽量なJPEG）があればそちらを使い、無い場合だけ元画像にフォールバックする。
+ * アップロード直後はサムネイルがまだ生成されていないことがあるため、
+ * 少し待ってから何回か取得を試みる。
  */
 function uploadCoverPhoto(owner, repo, token, bookId, photoAnswer) {
   const fileId = extractDriveFileId(photoAnswer.split(",")[0].trim());
   if (!fileId) return null;
   const file = DriveApp.getFileById(fileId);
-  const blob = file.getThumbnail() || file.getBlob();
+  const blob = getThumbnailWithRetry(file) || file.getBlob();
   const ext = extFromMimeType(blob.getContentType());
   const path = `assets/covers/${bookId}.${ext}`;
   putFile(
@@ -194,6 +196,16 @@ function ghHeaders(token) {
 function extractDriveFileId(url) {
   const m = url.match(/[-\w]{25,}/);
   return m ? m[0] : null;
+}
+
+/** アップロード直後はサムネイル未生成のことがあるため、間隔を空けて数回試す */
+function getThumbnailWithRetry(file) {
+  for (let i = 0; i < 5; i++) {
+    const thumb = file.getThumbnail();
+    if (thumb) return thumb;
+    Utilities.sleep(2000);
+  }
+  return null;
 }
 
 /** 全角数字や「No.」などの余分な文字が入っていても数字部分だけを取り出す */
