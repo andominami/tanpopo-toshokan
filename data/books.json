@@ -14186,5 +14186,15 @@
     "loans": [],
     "published": "2026年4月",
     "category": "DENTAL DIAMOND"
+  },
+  {
+    "id": "1111111",
+    "title": "テスト",
+    "author": "あ",
+    "category": "単行本・その他",
+    "loans": [],
+    "addedAt": "2026-10-08T06:50:37.750Z",
+    "published": "2029.1",
+    "cover": "assets/covers/1111111.jpg"
   }
 ]
