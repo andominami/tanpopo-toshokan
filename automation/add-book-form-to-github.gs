@@ -6,14 +6,12 @@
  * セットアップ手順は automation/README.md を参照。
  *
  * 前提とするフォームの質問（このままの表記でOK。順番は問わない）:
+ *   - 本の番号     （記述式・必須。既に使われている番号を入れるとエラーになる）
  *   - タイトル     （記述式・必須）
  *   - 著者        （記述式・任意）
  *   - カテゴリ     （プルダウン・任意。CATEGORIES と同じ選択肢にする）
  *   - 発行日      （記述式・任意。例: 2024年3月）
  *   - 表紙写真     （ファイルのアップロード・任意）
- *
- * 新しく登録される本には、既存の番号（1〜8528）と重ならないよう
- * NEW_BOOK_RANGE_START（9000）以降の番号が自動で割り振られる。
  *
  * 使う前に、スクリプトエディタの「プロジェクトの設定」→「スクリプト プロパティ」に
  * 以下を登録しておくこと（コードに直接書かない）:
@@ -36,7 +34,6 @@ const CATEGORIES = [
 const BOOKS_PATH = "data/books.json";
 const BRANCH = "main";
 const MAX_RETRIES = 3;
-const NEW_BOOK_RANGE_START = 9000;
 
 function onFormSubmit(e) {
   const props = PropertiesService.getScriptProperties();
@@ -53,13 +50,14 @@ function onFormSubmit(e) {
   const values = e.namedValues || {};
   const pick = (key) => ((values[key] || [])[0] || "").trim();
 
+  const bookNo = normalizeBookNo(pick("本の番号"));
   const title = pick("タイトル");
   const author = pick("著者");
   const categoryAnswer = pick("カテゴリ");
   const published = pick("発行日");
   const photoAnswer = pick("表紙写真"); // ファイルアップロード質問はDriveのURLが入る
 
-  if (!title) return; // 必須項目が空の場合は何もしない
+  if (!bookNo || !title) return; // 必須項目が空の場合は何もしない
 
   const category = CATEGORIES.includes(categoryAnswer) ? categoryAnswer : "単行本・その他";
 
@@ -68,11 +66,10 @@ function onFormSubmit(e) {
   runWithRetry(() => {
     driveFileIdToClean = null;
     const { sha, books } = fetchBooksJson(owner, repo, token);
-    const maxId = books.reduce((max, b) => {
-      const n = parseInt(b.id, 10);
-      return !isNaN(n) && n >= NEW_BOOK_RANGE_START && n > max ? n : max;
-    }, NEW_BOOK_RANGE_START - 1);
-    const id = String(maxId + 1);
+    if (books.some((b) => String(b.id) === bookNo)) {
+      throw new Error(`本の番号 ${bookNo} は既に使われています。別の番号を使ってください。`);
+    }
+    const id = bookNo;
 
     const newBook = {
       id,
@@ -192,6 +189,15 @@ function ghHeaders(token) {
 function extractDriveFileId(url) {
   const m = url.match(/[-\w]{25,}/);
   return m ? m[0] : null;
+}
+
+/** 全角数字や「No.」などの余分な文字が入っていても数字部分だけを取り出す */
+function normalizeBookNo(raw) {
+  const halfWidth = raw.replace(/[０-９]/g, (ch) =>
+    String.fromCharCode(ch.charCodeAt(0) - 0xfee0)
+  );
+  const match = halfWidth.match(/\d+/);
+  return match ? match[0] : halfWidth.trim();
 }
 
 function extFromMimeType(mime) {
