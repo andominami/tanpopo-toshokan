@@ -211,6 +211,18 @@ button { font-family: inherit; cursor: pointer; }
   color: #fff;
 }
 
+.form-link-add {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  color: var(--color-text);
+  padding: 8px 20px;
+}
+
+.form-link-add:hover {
+  border-color: var(--color-yellow);
+  color: var(--color-yellow-dark);
+}
+
 /* ---------- Rules box ---------- */
 
 .rules-box {
