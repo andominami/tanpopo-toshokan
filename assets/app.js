@@ -19,6 +19,7 @@
   var coverAuthor = document.getElementById("cover-author");
   var coverLoanLink = document.getElementById("cover-loan-link");
   var coverReturnLink = document.getElementById("cover-return-link");
+  var coverBadgeNew = document.getElementById("cover-badge-new");
 
   var LOAN_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdJj40a9sNGseU0InMc5dWAcI2QWwFJl4m2juVu9RDnbazHvA/viewform";
   var LOAN_FORM_NO_ENTRY = "entry.95383657";
@@ -92,6 +93,7 @@
   });
 
   function openCover(book) {
+    coverBadgeNew.hidden = !isNewBook(book);
     if (book.cover) {
       coverImage.src = book.cover;
       coverImage.alt = book.title;
@@ -175,6 +177,16 @@
   }
 
   var LOAN_PERIOD_DAYS = 7;
+  var NEW_BADGE_DAYS = 30;
+
+  // 登録してから一定日数以内は「NEW」バッジを表示する
+  function isNewBook(book) {
+    if (!book.addedAt) return false;
+    var added = new Date(book.addedAt);
+    if (isNaN(added.getTime())) return false;
+    var diffDays = (Date.now() - added.getTime()) / (1000 * 60 * 60 * 24);
+    return diffDays >= 0 && diffDays <= NEW_BADGE_DAYS;
+  }
 
   function addDays(dateStr, days) {
     var d = new Date(dateStr + "T00:00:00");
@@ -287,8 +299,13 @@
           ? '<span class="book-category">' + escapeHtml(book.category) + "</span>"
           : "";
 
+        var badgeHtml = isNewBook(book)
+          ? '<span class="book-badge-new">NEW</span>'
+          : "";
+
         return (
           '<li class="book-card" data-book-id="' + escapeHtml(book.id) + '">' +
+          badgeHtml +
           coverHtml +
           '<div class="book-card-body">' +
           '<span class="book-no">No.' + escapeHtml(book.id) + "</span>" +
